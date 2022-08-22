@@ -41,7 +41,7 @@ jobs:
       
       # Add new issues!
       - name: Issue 1
-        uses: peter-evans/create-issue-from-file@v2
+        uses: peter-evans/create-issue-from-file@v4
         with:
           title: How to start working on a new project
           content-filepath: ./.github/issues_to_create/issue_01.md
